@@ -33,6 +33,10 @@ p {
   border-top: 1px black solid;
 }
 
+.container {
+    display: flex;
+    flex-direction: column;
+}
 
 /*    Navbar    */
 .navbar {
@@ -147,7 +151,7 @@ p {
   align-self: center;
 }
 
-.title-button:hover {
+.-button:hover {
   cursor: pointer;
   background-color: lightblue;
   box-shadow: 1px 1px burlywood;
@@ -209,7 +213,7 @@ p {
   text-align: end;
   font-style: normal;
   font-weight: 600;
-  color: gray;
+  color: sienna;
 }
 
 
